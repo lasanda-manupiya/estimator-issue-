@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/estimatemanager",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\EstimateManager\\Providers\\EstimateManagerServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\EstimateManager\\": ""
+        }
+    }
+}
